@@ -35,19 +35,33 @@ p{
 }
 
 .card{
-    width: calc(98% / 3);
+    width: calc((98% / 3) - 20px);
     height: 100px;
     background-color: #0f0e17;
     color: white;
-    margin: 1.5rem 0px;
+    margin: 1.5rem 10px;
     float: left;
     text-align: left;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .card-avatar{
     width: 100px;
+    float: left;
 }
 
 .name-surname{
     color: white;
+    font-size: 1.15rem;
+    padding: 12px 10px 5px 12px;
 }
+
+.job{
+    padding: 0px 10px;
+}
+
+.e-mail{
+    color: #2fa1db;
+    padding: 5px 10px;
+}
+
