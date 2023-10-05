@@ -42,7 +42,7 @@ p{
     margin: 1.5rem 10px;
     float: left;
     text-align: left;
-    text-shadow: 2px 2px 4px #000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .card-avatar{
@@ -64,4 +64,3 @@ p{
     color: #2fa1db;
     padding: 5px 10px;
 }
-
