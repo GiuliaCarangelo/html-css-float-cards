@@ -24,13 +24,30 @@ p{
     padding: 25px 0px;
 }
 
-.cards-container{
-    margin: 20px 20px;
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.float-element{
+    float: left;
 }
 
 .card{
-    width: calc(100% / 3);
+    width: calc(98% / 3);
     height: 100px;
     background-color: #0f0e17;
+    color: white;
+    margin: 1.5rem 0px;
+    float: left;
+    text-align: left;
+}
+
+.card-avatar{
+    width: 100px;
+}
+
+.name-surname{
     color: white;
 }
